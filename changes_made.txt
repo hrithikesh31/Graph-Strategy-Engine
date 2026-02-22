@@ -1,0 +1,35 @@
+===================================================================
+              15-PUZZLE PROJECT - CHANGE LOG
+===================================================================
+
+1. NEW AI STRATEGY: DIVIDE & CONQUER + QUICK SORT
+   - Implemented "Partitioning Phase" (Quick Sort):
+     - The AI now starts by organizing the board into two halves.
+     - "Top Half" (Rows 1-2): Contains tiles 1-8.
+     - "Bottom Half" (Rows 3-4): Contains tiles 9-15.
+     - This purely algorithmic approach reduces the puzzle complexity significantly before row-solving begins.
+   - Refined "Row Solving" (Divide & Conquer):
+     - Once partitioned, the AI proceeds to solve Row 1, then Row 2, etc.
+     - Uses A* Search and Tabu Search (for loop prevention) within each phase.
+
+2. ENHANCED USER INTERFACE (GUI.java)
+   - Visual Style: Modernized look with rounded buttons and cleaner layout.
+   - Sorting Visualization:
+     - Tiles change color based on their status:
+       * GREEN: Correctly placed.
+       * YELLOW: Correct row, wrong column.
+       * RED/WHITE: Incorrect.
+     - Status Label: Now shows accurately: "AI Phase: QUICK_SORT_PARTITION" or "AI Phase: ROW_1", etc.
+   - Graph Overlay: Added a checkbox to draw the underlying graph connections on the board.
+
+3. GRAPH REPRESENTATION
+   - Updated 'Graph' interface and classes to support visualization.
+
+4. CLEANUP & MAINTENANCE
+   - Deleted obsolete 'GreedyAI' files.
+   - Updated 'Main.java' documentation.
+   - Codebase is fully compiled and ready.
+
+===================================================================
+             PROJECT IS READY WITH ADVANCED AI LOGIC
+===================================================================

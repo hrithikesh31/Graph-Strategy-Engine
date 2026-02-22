@@ -1,0 +1,33 @@
+
+HOW TO PLAY: 15-PUZZLE (HUMAN VS AI)
+=====================================
+
+OBJECTIVE
+---------
+Arrange the tiles in numerical order (1-15) with the empty space at the bottom-right corner.
+You are competing against an AI timer!
+
+CONTROLS
+--------
+- CLICK a tile adjacent to the empty space to move it into the empty space.
+- You cannot move diagonal tiles.
+
+GAMEPLAY
+--------
+1. The game starts with a shuffled board.
+2. You have 180 seconds to solve the puzzle.
+3. Every move you make earns you 10 points.
+4. Solving the puzzle gives a 100-point bonus + time bonus!
+5. If time runs out, the AI wins.
+
+POWER-UPS
+---------
+- UNDO: Made a mistake? Click 'Undo' to revert your last move.
+- FREEZE AI: (Not active in this version, but part of the UI)
+- RESET: Start a new game with a fresh shuffle.
+
+SCORING
+-------
+- Try to solve it in as few moves as possible to maximize your efficiency score!
+
+GOOD LUCK!
